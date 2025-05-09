@@ -14,5 +14,8 @@ Learning the React framework.
 - Add/Delete task in project
 
 ## Gallery
-![Screenshot of app](/gallery/App.jpg)
+![Screenshot of app](/gallery/Main_Page.jpg)
+![Add project dialog](/gallery/Add_Project.jpg)
+![Selected project](/gallery/Project_Page.jpg)
+![Add task dialog](/gallery/Add_Task.jpg)
 

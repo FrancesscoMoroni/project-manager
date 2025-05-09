@@ -5,7 +5,7 @@ export default function SideBar({ projects, onAdd, onFocus, onDelete }) {
     return (
         <>
             <section className={sidebar_css.card}>
-                <h1 className={sidebar_css.title}>SideBar</h1>
+                <h1 className={sidebar_css.title}>Projects</h1>
                 <button className={sidebar_css.addButton} onClick={() => onAdd("Project")}>+ Add Project</button>
                 <ul className={sidebar_css.projectList}>
                     {projects.map((element) => {

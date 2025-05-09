@@ -1,0 +1,15 @@
+main {
+    display: flex;
+    height: 90%;
+}
+
+header {
+    height: 10%;
+}
+
+.title {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}

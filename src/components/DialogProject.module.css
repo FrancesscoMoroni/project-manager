@@ -1,0 +1,49 @@
+.dialog {
+    box-sizing: border-box;
+    margin: auto;
+
+    border-radius: 20px;
+}
+
+.dialogContent {
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.headerDialog {
+    text-align: center;
+    width: max-content;
+}
+
+.inputDialog {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.inputDialog > input {
+    margin-bottom: 15px;
+}
+
+.inputDialog > input {
+    text-align: center;
+}
+
+.footerDialog {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    margin-top: 15px;
+    width: 4rem;
+
+    padding: 5px;
+    background-color: rgba(64, 70, 68, 0.986);
+    color: white;
+    border-radius: 20px;
+}

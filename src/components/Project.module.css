@@ -1,0 +1,75 @@
+.card {
+    width: 60%;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.date {
+    font-size: 15px;
+}
+
+.description {
+    width: 100%;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.addButton {
+    margin-top: 15px;
+    width: 6rem;
+
+    padding: 5px;
+    background-color: rgba(64, 70, 68, 0.986);
+    color: white;
+    border-radius: 20px;
+}
+
+
+.taskList {
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.taskList li {
+    display: flex;
+    margin-top: 10px;
+    min-width: 20rem;
+    text-align: center;
+    background-color: transparent;
+
+    border-style: solid;
+    border-color: black;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+}
+
+.taskContent {
+    padding: 10px;
+    width: 88%;
+    text-align: left;
+}
+
+.taskAction {
+    width: 12%;
+    background-color: transparent;
+
+    border: none;
+}
+
+.taskAction:hover {
+    background-color: rgba(69, 71, 69, 0.438);
+
+    border: none;
+}
